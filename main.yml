@@ -1,0 +1,6 @@
+---
+- name: Hello World playbook
+  hosts: all
+  tasks:
+  - name: creata a file 
+    copy: content="hello world\n" dest=/tmp/testfile.txt
